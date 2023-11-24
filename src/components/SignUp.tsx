@@ -18,10 +18,10 @@ const SignUp = () => {
         <p className="px-8 text-center text-sm text-zinc-700">
           Already a Breadittor?{" "}
           <Link
-            href="/sign-in"
+            href="/sign-up"
             className="hover:text-zinc-800 text-sm underline underline-offset-4"
           >
-            Sign In
+            Sign Up
           </Link>
         </p>
       </div>
