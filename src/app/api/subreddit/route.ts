@@ -1,5 +1,4 @@
 import { getAuthSession } from "@/lib/auth";
-import errors from "../../../lib/errors";
 import { SubredditValidator } from "@/lib/validators/subreddit";
 import { db } from "@/lib/db";
 import { z } from "zod";
@@ -47,4 +46,4 @@ export async function POST(req: Request) {
 
     return new Response("Could not create subreddit", { status: 500 });
   }
-}
+};
