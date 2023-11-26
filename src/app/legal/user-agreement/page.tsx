@@ -3,14 +3,16 @@ import { FC } from "react";
 const page: FC = () => {
   return (
     <div className="h-full mx-auto">
-      <h1 className="bg-[#F1ECE6] h-20 w-full text-5xl text-center">User Agreement</h1>
+      <h1 className="bg-[#F1ECE6] h-20 w-full text-5xl text-center">
+        User Agreement
+      </h1>
 
       <main>
         <section>
           <em>Effective on November 21, 2023</em>
 
           <p>
-            Our mission is to connect the world's professionals to allow them to
+            Our mission is to connect the worlds professionals to allow them to
             be more productive and successful. Our services are designed to
             promote economic opportunity for our members by enabling you and
             millions of other professionals to meet, exchange ideas, learn, and
@@ -28,7 +30,7 @@ const page: FC = () => {
             <li>Termination</li>
             <li>Governing Law and Dispute Resolution</li>
             <li>General Terms</li>
-            <li>Breadit "Dos and Don´ts"</li>
+            <li>Breadit Dos and Donts</li>
             <li>Complaints Regarding Content</li>
             <li>How To Contact Us</li>
           </ol>
